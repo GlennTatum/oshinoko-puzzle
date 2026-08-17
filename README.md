@@ -1,11 +1,12 @@
 # oshinoko-puzzle
 A fan project replica for https://www.oshinoko-puzzle-global.com/
 
+![screenshot](screenshot.png)
+
 ```
-# build the container
+# build the container (change USER uid if needed)
 
 docker build -f Dockerfile.init . -t devcontainer:init
-# run npx create-next-app@latest with desired project settings
 
 # setup the dev container
 
@@ -13,7 +14,7 @@ docker build -f Dockerfile.init . -t devcontainer:init
 
 # start next.js
 
-cd oshjinoko-puzzle
+cd oshinoko-puzzle
 
 npm run dev
 ```
