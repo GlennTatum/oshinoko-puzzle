@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-[url(/bg-char-2.png)] bg-cover bg-center bg-no-repeat p-16">
+    <div className="bg-[url(/bg-char-2.png)] bg-cover bg-center bg-no-repeat p-6">
         <div>
           <Image 
             src="/ic-green.svg" 
             alt="Green" 
             width={96}
             height={96}
-            className="absolute inset-x-3/4 inset-y-1/8 rotate-32 animate-float animate-iteration-count-infinite animate-duration-3000"
+            className="absolute inset-x-8/11 inset-y-1/8 rotate-32 animate-float animate-iteration-count-infinite animate-duration-3000"
           />
         </div>
         <div>
@@ -45,7 +45,7 @@ export default function Home() {
             alt="Ai Hoshino Button" 
             width={96}
             height={96}
-            className="z-4 absolute inset-x-9/14 inset-y-10/12 rotate-16 animate-float animate-iteration-count-infinite animate-duration-3000"
+            className="z-4 absolute inset-x-9/15 inset-y-10/12 rotate-16 animate-float animate-iteration-count-infinite animate-duration-3000"
           />
         </div>
         <div className="flex animate-blurred-fade-in p-4">
@@ -100,13 +100,13 @@ export default function Home() {
           </div>
           <div className="flex items-center grow-1 animate-slide-up-fade h-screen">
             <div className="h-3/8">
-                <div className="pb-4 text-8xl text-sky-400 font-bold">
+                <div className="pb-4 text-6xl text-sky-400 font-bold">
                   <p>Aqua</p>
                 </div>
-                <div className="pb-2 text-6xl text-neutral-950 font-bold">
+                <div className="pb-2 text-4xl text-neutral-950 font-bold">
                   <p>CV. Takeo Otsuka</p>
                 </div>
-                <div className="text-xl text-neutral-950 font-semibold">
+                <div className="text-lg text-neutral-950 font-semibold">
                   <p>A handsome actor with a cool, composed charm.</p>
                 </div>
                 <div className="text-2xl text-sky-500 font-bold">
@@ -117,8 +117,8 @@ export default function Home() {
                 </div>
             </div>
           </div>
-          <div className="grow-8 flex animate-slide-in-right animate-slide-distance-[100%] h-screen">
-              <div className="z-1 flex-4 relative h-screen">
+          <div className="grow-12 flex animate-slide-in-right animate-slide-distance-[100%] h-screen">
+              <div className="z-1 flex-4 relative">
                 <Image 
                   src="/char-2-shadow.png" 
                   alt="Aqua Hoshino Image" 
@@ -126,7 +126,7 @@ export default function Home() {
                   style={{ objectFit: 'contain' }}
                 />
               </div>
-             <div className="z-0 flex-8 -translate-x-14 relative h-screen">
+             <div className="z-0 flex-6 -translate-x-24 relative">
                 <Image 
                   src="/character-text-2-en.png" 
                   alt="Aqua Hoshino Text" 
