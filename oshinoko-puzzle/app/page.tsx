@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-[url(/bg-char-2.png)] bg-cover bg-center bg-no-repeat p-6">
+    <div className="bg-[url(/bg-char-2.png)] bg-cover bg-center bg-no-repeat">
         <div>
           <Image 
             src="/ic-green.svg" 
@@ -18,7 +18,7 @@ export default function Home() {
             alt="Red" 
             width={120}
             height={120}
-            className="absolute inset-x-1/6 inset-y-1/8 rotate-345 animate-float animate-iteration-count-infinite animate-duration-3000"
+            className="absolute inset-x-1/8 inset-y-1/8 rotate-345 animate-float animate-iteration-count-infinite animate-duration-3000"
           />
         </div>
         <div>
@@ -27,7 +27,7 @@ export default function Home() {
             alt="Purple" 
             width={96}
             height={96}
-            className="absolute inset-x-1/6 inset-y-6/8 rotate-355 animate-float animate-iteration-count-infinite animate-duration-3000"
+            className="absolute inset-x-1/8 inset-y-6/8 rotate-355 animate-float animate-iteration-count-infinite animate-duration-3000"
           />
         </div>
         <div>
@@ -36,7 +36,7 @@ export default function Home() {
             alt="Yellow" 
             width={160}
             height={160}
-            className="absolute inset-x-2/8 inset-y-6/8 rotate-24 animate-float animate-iteration-count-infinite animate-duration-3000"
+            className="absolute inset-x-2/9 inset-y-6/8 rotate-24 animate-float animate-iteration-count-infinite animate-duration-3000"
           />
         </div>
         <div>
